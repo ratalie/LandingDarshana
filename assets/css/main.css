@@ -1,4 +1,4 @@
-@import url('fontawesome-all.min.css');
+@import url(fontawesome-all.min.css);
 
 /*
 	Hyperspace by HTML5 UP
@@ -74,11 +74,11 @@ input, select, textarea {
 /* Basic */
 
 	@-ms-viewport {
-		width: device-width;
+		width: device-width;	
 	}
 
 	body {
-		-ms-overflow-style: scrollbar;
+		-ms-overflow-style: auto;
 	}
 
 	@media screen and (max-width: 480px) {
@@ -116,7 +116,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(0,0,0,0.9);
-		font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
+		font-family: Century-Gothic, Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -2525,7 +2525,7 @@ input, select, textarea {
 			display: block;
 			background: #000000;
 			border-radius: 100%;
-			color: #312450;
+			color: #efe7d9;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2540,23 +2540,23 @@ input, select, textarea {
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #000000;
+					color: #efe7d9;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #000000;
+					color: #efe7d9;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #000000;
+					color: #efe7d9;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #000000;
+					color: #efe7d9;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #000000;
+					color: #efe7d9;
 				}
 
 /* Image */
@@ -2612,6 +2612,10 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+		.imageresize {
+			max-width: 100%;
+			max-height: 100%;
+		}
 
 /* List */
 
