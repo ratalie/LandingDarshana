@@ -1,4 +1,4 @@
-@import url('http://fonts.cdnfonts.com/css/century-gothics');
+@import url('fontawesome-all.min.css');
 
 /*
 	Hyperspace by HTML5 UP
@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #44542e;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -116,12 +116,12 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(0,0,0,0.9);
-		font-family: Arial, Helvetica, Century Gothic, sans-serif;
+		font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
 	}
-
+                                                                                                                               
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
@@ -282,7 +282,7 @@ input, select, textarea {
 	}
 
 	code {
-		background: rgba(0, 0, 0, 0.95));
+		background: rgba(0, 0, 0, 0.95);
 		border-radius: 0.25em;
 		border: solid 1px rgba(0,0,0, 0.9);
 		font-family: "Courier New", monospace;
@@ -2499,7 +2499,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Century Gothic';
+			font-family: 'sans-serif';
 			font-weight: 400;
 		}
 
@@ -2516,7 +2516,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Century Gothic';
+			font-family: 'sans-serif';
 		}
 
 		.icon.major {
@@ -3739,15 +3739,15 @@ input, select, textarea {
 			border: 0;
 			color: rgba(255, 255, 255, 0.3);
 			display: block;
-			font-size: 0.6em;
+			font-size: 0.9em;
 			font-weight: bold;
-			letter-spacing: 0.25em;
+			letter-spacing: 0.1em;
 			line-height: 1.75;
 			outline: 0;
 			padding: 1.35em 0;
 			position: relative;
 			text-decoration: none;
-			text-transform: uppercase;
+/*			text-transform: uppercase; */
 		}
 
 			#sidebar nav a:before, #sidebar nav a:after {
