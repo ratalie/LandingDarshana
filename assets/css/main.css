@@ -2499,7 +2499,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'sans-serif';
+			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
 		}
 
@@ -2516,7 +2516,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'sans-serif';
+			font-family: 'Font Awesome 5 Free';
 		}
 
 		.icon.major {
@@ -2536,27 +2536,27 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #000000;
+					color: #ffffff;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #efe7d9;
+					color: #ffffff;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #efe7d9;
+					color: #ffffff;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #efe7d9;
+					color: #ffffff;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #efe7d9;
+					color: #ffffff;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #efe7d9;
+					color: #ffffff;
 				}
 
 /* Image */
