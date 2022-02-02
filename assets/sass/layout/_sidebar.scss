@@ -96,17 +96,17 @@
 				}
 
 				&:after {
-					@include vendor('background-image', 'linear-gradient(to right, #{_palette(accent1)}, #{_palette(accent3)})');
+					@include vendor('background-image', 'linear-gradient(to right, #{_palette(bg)}, #{_palette(accent1)})');
 					@include vendor('transition', 'max-width #{_duration(transition)} ease');
 					max-width: 0;
 				}
 
 				&:hover {
-					color: _palette(fg);
+					color: _palette(accent1);
 				}
 
 				&.active {
-					color: _palette(fg-bold);
+					color: _palette(accent1);
 
 					&:after {
 						max-width: 100%;

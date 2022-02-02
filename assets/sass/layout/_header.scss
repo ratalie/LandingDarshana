@@ -14,7 +14,7 @@
 
 		> .title {
 			border: 0;
-			color: _palette(fg-bold);
+			color: _palette(accent1);
 			display: block;
 			font-size: 1.25em;
 			font-weight: _font(weight-bold);
@@ -48,11 +48,11 @@
 						text-transform: uppercase;
 
 						&:hover {
-							color: _palette(fg);
+							color: _palette(fg-light);
 						}
 
 						&.active {
-							color: _palette(fg-bold);
+							color: _palette(fg-light);
 						}
 					}
 				}
