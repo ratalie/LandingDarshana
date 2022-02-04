@@ -29,7 +29,7 @@
 		family-fixed:		('Courier New', monospace),
 		weight:				normal,
 		weight-bold:		bold,
-		kerning-alt:		0.25em
+		kerning-alt:		0.1em
 	);
 
 // Palette.
@@ -39,8 +39,8 @@
 		fg:					rgba(0,0,0,0.9),
 		fg-bold:			#000000,
 		fg-light:			rgba(255,255,255,0.35),
-		border:				rgba(0,0,0,0.9),
-		border-bg:			rgba(255,255,255,0.05),
+		border:				rgba(68, 84, 46, 0.8),
+		border-bg:			rgba(255, 255, 255, 0.05),
 		accent1:			#fff,
 		accent1-alt:		darken(#fff, 10),
 		accent2:			#fff,
