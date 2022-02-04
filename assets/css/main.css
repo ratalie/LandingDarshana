@@ -6212,6 +6212,11 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   transition: none !important;
 }
 
+.imageresize {
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+
 /* Type */
 body, input, select, textarea {
   color: rgba(0, 0, 0, 0.9);
