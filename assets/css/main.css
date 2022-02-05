@@ -9196,7 +9196,6 @@ body.is-preload .wrapper.fade > .inner {
   font-size: 0.6em;
   font-weight: bold;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
 }
 
 #header > nav > ul > li a:hover {
@@ -9459,7 +9458,7 @@ body.is-ie #sidebar > .inner {
   border: 0;
   color: rgba(255, 255, 255, 0.35);
   display: block;
-  font-size: 0.6em;
+  font-size: 0.9em;
   font-weight: bold;
   letter-spacing: 0.1em;
   line-height: 1.75;
@@ -9467,7 +9466,6 @@ body.is-ie #sidebar > .inner {
   padding: 1.35em 0;
   position: relative;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 #sidebar nav a:before, #sidebar nav a:after {
