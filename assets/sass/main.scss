@@ -58,3 +58,24 @@
 	@import 'layout/footer';
 	@import 'layout/sidebar';
 	@import 'layout/intro';
+
+//Personal
+.algo_banner{
+	margin-top: -2.5rem;
+	
+	b {
+		background: -webkit-linear-gradient( right, #B41187, #E5612C);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	  }
+}
+
+#footer > .inner p{
+	font-size: 0.8em;
+	font-weight: 600;
+	color: #4d4d4d;
+
+	img{
+		vertical-align: middle;
+	}
+}

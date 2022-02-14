@@ -9605,4 +9605,24 @@ body.is-preload #sidebar nav ul li {
     background-attachment: scroll;
   }
 }
+
+.algo_banner {
+  margin-top: -2.5rem;
+}
+
+.algo_banner b {
+  background: -webkit-linear-gradient(right, #B41187, #E5612C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#footer > .inner p {
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+
+#footer > .inner p img {
+  vertical-align: middle;
+}
 /*# sourceMappingURL=main.css.map */
