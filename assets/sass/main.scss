@@ -64,8 +64,10 @@
 	margin-top: -2.5rem;
 	
 	b {
-		background: -webkit-linear-gradient( right, #B41187, #E5612C);
+		background: -webkit-linear-gradient(to right, rgba(180, 17, 135, 1), #E5612C);
+		background: linear-gradient(to right, rgba(180, 17, 135, 1), #E5612C );
 		-webkit-background-clip: text;
+		background-clip: text;
 		-webkit-text-fill-color: transparent;
 	  }
 }
