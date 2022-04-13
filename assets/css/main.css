@@ -9643,4 +9643,50 @@ a.gflag img {
 a.gflag:hover {
   background-image: url(https://gtranslate.net/flags/24a.png);
 }
+
+.menu_flags a {
+  padding: 0 !important;
+  display: inline-block !important;
+}
+
+.menu_flags a.gflag {
+  vertical-align: middle;
+  font-size: 24px;
+  padding: 1px 0;
+  background-repeat: no-repeat;
+  background-image: url(https://gtranslate.net/flags/24.png);
+}
+
+.menu_flags a.gflag img {
+  border: 0;
+}
+
+.menu_flags a.gflag:hover {
+  background-image: url(https://gtranslate.net/flags/24a.png);
+}
+
+.partnership {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.partnership .col-2 {
+  width: 16%;
+}
+
+.partnership a {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.partnership a img {
+  max-width: 100%;
+}
 /*# sourceMappingURL=main.css.map */
