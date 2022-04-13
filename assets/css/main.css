@@ -9678,6 +9678,10 @@ a.gflag:hover {
   width: 16%;
 }
 
+.partnership .col-1 {
+  width: 11%;
+}
+
 .partnership a {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
