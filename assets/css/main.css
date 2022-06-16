@@ -6202,7 +6202,7 @@ html {
 }
 
 body {
-  background: #44542e;
+  background: #063c4d;
 }
 
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -7824,7 +7824,7 @@ input[type="button"].primary,
 button.primary,
 .button.primary {
   background-color: #000000;
-  color: #44542e !important;
+  color: #063c4d !important;
 }
 
 input[type="submit"].primary:after,
@@ -8199,7 +8199,7 @@ select {
 
 select option {
   color: #000000;
-  background: #44542e;
+  background: #063c4d;
 }
 
 select:focus::-ms-value {
@@ -8368,7 +8368,7 @@ input[type="radio"] + label:before {
   display: block;
   background: #000000;
   border-radius: 100%;
-  color: #44542e;
+  color: #063c4d;
   text-align: center;
   line-height: 2.5em;
   margin: 0 0 1.3em 0;
@@ -9288,7 +9288,7 @@ body.is-preload .wrapper.fade > .inner {
 /* Sidebar */
 #sidebar {
   padding: 2.5em 2.5em 0.5em 2.5em ;
-  background: #44542e;
+  background: #063c4d;
   cursor: default;
   height: 100vh;
   left: 0;
@@ -9483,8 +9483,8 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:after {
-  background-image: -webkit-gradient(linear, left top, right top, from(#44542e), to(#fff));
-  background-image: linear-gradient(to right, #44542e, #fff);
+  background-image: -webkit-gradient(linear, left top, right top, from(#063c4d), to(#fff));
+  background-image: linear-gradient(to right, #063c4d, #fff);
   -webkit-transition: max-width 0.2s ease;
   transition: max-width 0.2s ease;
   max-width: 0;
